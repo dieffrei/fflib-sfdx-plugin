@@ -129,7 +129,7 @@ export default class Selector extends SfdxCommand {
 
   public static description = messages.getMessage('commandDescription');
   public static examples = [
-    `$ sfdx guidion:source:generation:selector`
+    `$ sfdx fflib:source:selector`
   ];
   protected static flagsConfig = {
     outputpath: { char: 'o', required: true, description: 'Output path' }

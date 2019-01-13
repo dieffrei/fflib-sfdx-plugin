@@ -22,7 +22,7 @@ $ npm install -g guidion
 $ guidion COMMAND
 running command...
 $ guidion (-v|--version|version)
-guidion/0.0.0 darwin-x64 node-v8.9.4
+guidion/0.0.0 darwin-x64 node-v8.9.0
 $ guidion --help [COMMAND]
 USAGE
   $ guidion COMMAND
@@ -30,37 +30,15 @@ USAGE
 ```
 <!-- usagestop -->
 <!-- commands -->
-* [`guidion guidion:build:fix`](#guidion-guidionbuildfix)
-* [`guidion guidion:source:generation:selector [CUSTOMOBJECTAPINAME]`](#guidion-guidionsourcegenerationselector-customobjectapiname)
+* [`guidion fflib:source:selector [CUSTOMOBJECTAPINAME]`](#guidion-fflibsourceselector-customobjectapiname)
 
-## `guidion guidion:build:fix`
-
-Merges custom labels and directories into default package folder
-
-```
-USAGE
-  $ guidion guidion:build:fix
-
-OPTIONS
-  -u, --targetusername=targetusername              username or alias for the target org; overrides default target org
-  -v, --targetdevhubusername=targetdevhubusername  username or alias for the dev hub org; overrides default dev hub org
-  --apiversion=apiversion                          override the api version used for api requests made by this command
-  --json                                           format output as json
-  --loglevel=(trace|debug|info|warn|error|fatal)   logging level for this command invocation
-
-EXAMPLE
-  $ sfdx guidion:build:fix
-```
-
-_See code: [src/commands/guidion/build/fix.ts](https://github.com/dieffrei/guidion/blob/v0.0.0/src/commands/guidion/build/fix.ts)_
-
-## `guidion guidion:source:generation:selector [CUSTOMOBJECTAPINAME]`
+## `guidion fflib:source:selector [CUSTOMOBJECTAPINAME]`
 
 Merges custom labels and directories into default package folder
 
 ```
 USAGE
-  $ guidion guidion:source:generation:selector [CUSTOMOBJECTAPINAME]
+  $ guidion fflib:source:selector [CUSTOMOBJECTAPINAME]
 
 OPTIONS
   -o, --outputpath=outputpath                      (required) Output path
@@ -71,10 +49,10 @@ OPTIONS
   --loglevel=(trace|debug|info|warn|error|fatal)   logging level for this command invocation
 
 EXAMPLE
-  $ sfdx guidion:source:generation:selector
+  $ sfdx fflib:source:selector
 ```
 
-_See code: [src/commands/guidion/source/generation/selector.ts](https://github.com/dieffrei/guidion/blob/v0.0.0/src/commands/guidion/source/generation/selector.ts)_
+_See code: [src/commands/fflib/source/selector.ts](https://github.com/dieffrei/guidion/blob/v0.0.0/src/commands/fflib/source/selector.ts)_
 <!-- commandsstop -->
 <!-- debugging-your-plugin -->
 # Debugging your plugin

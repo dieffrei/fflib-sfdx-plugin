@@ -1,8 +1,8 @@
 {
-  "name": "guidion",
+  "name": "fflib",
   "version": "0.0.0",
   "author": "Diéffrei Quadros @dieffrei",
-  "bugs": "https://github.com/dieffrei/guidion/issues",
+  "bugs": "https://github.com/dieffrei/fflib-sfdx-plugin/issues",
   "dependencies": {
     "@oclif/command": "1",
     "@oclif/config": "1",
@@ -47,7 +47,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/dieffrei/guidion",
+  "homepage": "https://github.com/dieffrei/fflib-sfdx-plugin",
   "keywords": [
     "sfdx-plugin"
   ],
@@ -63,7 +63,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "dieffrei/guidion",
+  "repository": "dieffrei/fflib-sfdx-plugin",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json npm-shrinkwrap.json",
     "posttest": "tsc -p test --noEmit && tslint -p test -t stylish",

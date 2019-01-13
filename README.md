@@ -18,27 +18,27 @@ guidion
 <!-- install -->
 <!-- usage -->
 ```sh-session
-$ npm install -g guidion
-$ guidion COMMAND
+$ npm install -g fflib
+$ fflib COMMAND
 running command...
-$ guidion (-v|--version|version)
-guidion/0.0.0 darwin-x64 node-v8.9.0
-$ guidion --help [COMMAND]
+$ fflib (-v|--version|version)
+fflib/0.0.0 darwin-x64 node-v8.9.4
+$ fflib --help [COMMAND]
 USAGE
-  $ guidion COMMAND
+  $ fflib COMMAND
 ...
 ```
 <!-- usagestop -->
 <!-- commands -->
-* [`guidion fflib:source:selector [CUSTOMOBJECTAPINAME]`](#guidion-fflibsourceselector-customobjectapiname)
+* [`fflib fflib:source:selector [CUSTOMOBJECTAPINAME]`](#fflib-fflibsourceselector-customobjectapiname)
 
-## `guidion fflib:source:selector [CUSTOMOBJECTAPINAME]`
+## `fflib fflib:source:selector [CUSTOMOBJECTAPINAME]`
 
 Merges custom labels and directories into default package folder
 
 ```
 USAGE
-  $ guidion fflib:source:selector [CUSTOMOBJECTAPINAME]
+  $ fflib fflib:source:selector [CUSTOMOBJECTAPINAME]
 
 OPTIONS
   -o, --outputpath=outputpath                      (required) Output path
@@ -52,7 +52,7 @@ EXAMPLE
   $ sfdx fflib:source:selector
 ```
 
-_See code: [src/commands/fflib/source/selector.ts](https://github.com/dieffrei/guidion/blob/v0.0.0/src/commands/fflib/source/selector.ts)_
+_See code: [src/commands/fflib/source/selector.ts](https://github.com/dieffrei/fflib-sfdx-plugin/blob/v0.0.0/src/commands/fflib/source/selector.ts)_
 <!-- commandsstop -->
 <!-- debugging-your-plugin -->
 # Debugging your plugin

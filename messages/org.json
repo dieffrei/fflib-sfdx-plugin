@@ -1,5 +1,5 @@
 {
-  "commandDescription": "Merges custom labels and directories into default package folder",
+  "commandDescription": "FFLIB SFDX pluginn",
   "nameFlagDescription": "name to print",
   "forceFlagDescription": "example boolean flag",
   "errorNoOrgResults": "No results found for the organization '%s'."

@@ -13,7 +13,7 @@ $ npm install -g fflib
 $ fflib COMMAND
 running command...
 $ fflib (-v|--version|version)
-fflib/0.0.0 darwin-x64 node-v8.9.0
+fflib/0.0.0 darwin-x64 node-v8.9.4
 $ fflib --help [COMMAND]
 USAGE
   $ fflib COMMAND
@@ -21,15 +21,15 @@ USAGE
 ```
 <!-- usagestop -->
 <!-- commands -->
-* [`fflib source:selector [CUSTOMOBJECTAPINAME]`](#fflib-sourceselector-customobjectapiname)
+* [`fflib fflib:source:selector [CUSTOMOBJECTAPINAME]`](#fflib-fflibsourceselector-customobjectapiname)
 
-## `fflib source:selector [CUSTOMOBJECTAPINAME]`
+## `fflib fflib:source:selector [CUSTOMOBJECTAPINAME]`
 
-Merges custom labels and directories into default package folder
+FFLIB SFDX pluginn
 
 ```
 USAGE
-  $ fflib source:selector [CUSTOMOBJECTAPINAME]
+  $ fflib fflib:source:selector [CUSTOMOBJECTAPINAME]
 
 OPTIONS
   -o, --outputpath=outputpath                      (required) Output path
@@ -43,7 +43,7 @@ EXAMPLE
   $ sfdx fflib:source:selector
 ```
 
-_See code: [src/commands/source/selector.ts](https://github.com/dieffrei/fflib-sfdx-plugin/blob/v0.0.0/src/commands/source/selector.ts)_
+_See code: [src/commands/fflib/source/selector.ts](https://github.com/dieffrei/fflib-sfdx-plugin/blob/v0.0.0/src/commands/fflib/source/selector.ts)_
 <!-- commandsstop -->
 <!-- debugging-your-plugin -->
 # Debugging your plugin

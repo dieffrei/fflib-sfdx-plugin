@@ -2,16 +2,7 @@ guidion
 =======
 
 
-
-[![Version](https://img.shields.io/npm/v/guidion.svg)](https://npmjs.org/package/guidion)
-[![CircleCI](https://circleci.com/gh/dieffrei/guidion/tree/master.svg?style=shield)](https://circleci.com/gh/dieffrei/guidion/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/dieffrei/guidion?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/guidion/branch/master)
-[![Codecov](https://codecov.io/gh/dieffrei/guidion/branch/master/graph/badge.svg)](https://codecov.io/gh/dieffrei/guidion)
-[![Greenkeeper](https://badges.greenkeeper.io/dieffrei/guidion.svg)](https://greenkeeper.io/)
-[![Known Vulnerabilities](https://snyk.io/test/github/dieffrei/guidion/badge.svg)](https://snyk.io/test/github/dieffrei/guidion)
-[![Downloads/week](https://img.shields.io/npm/dw/guidion.svg)](https://npmjs.org/package/guidion)
-[![License](https://img.shields.io/npm/l/guidion.svg)](https://github.com/dieffrei/guidion/blob/master/package.json)
-
+[![CircleCI](https://circleci.com/gh/dieffrei/fflib-sfdx-plugin.svg?style=svg)](https://circleci.com/gh/dieffrei/fflib-sfdx-plugin)
 <!-- toc -->
 * [Debugging your plugin](#debugging-your-plugin)
 <!-- tocstop -->

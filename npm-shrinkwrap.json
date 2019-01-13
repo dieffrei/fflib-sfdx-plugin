@@ -952,7 +952,6 @@
         "unset-value": "1.0.0"
       }
     },
-    "caching-transform": {},
     "call-me-maybe": {
       "version": "1.0.1",
       "resolved": "https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.1.tgz",
@@ -1709,7 +1708,6 @@
         "traverse-chain": "0.1.0"
       }
     },
-    "find-cache-dir": {},
     "find-up": {
       "version": "2.1.0",
       "resolved": "https://registry.npmjs.org/find-up/-/find-up-2.1.0.tgz",
@@ -1947,7 +1945,6 @@
       "integrity": "sha512-qBr4OuELkhPenW6goKVXiv47US3clb3/IbuWF9KNKEijAy9oeHxU9IgzjvJhHkUzhaj7rOUD7+YGWqUjLp5oSA==",
       "dev": true
     },
-    "handlebars": {},
     "har-schema": {
       "version": "2.0.0",
       "resolved": "https://registry.npmjs.org/har-schema/-/har-schema-2.0.0.tgz",
@@ -2438,9 +2435,6 @@
         }
       }
     },
-    "istanbul-lib-report": {},
-    "istanbul-lib-source-maps": {},
-    "istanbul-reports": {},
     "joi": {
       "version": "6.10.1",
       "resolved": "http://registry.npmjs.org/joi/-/joi-6.10.1.tgz",
@@ -7502,11 +7496,6 @@
       "resolved": "https://registry.npmjs.org/os-homedir/-/os-homedir-1.0.2.tgz",
       "integrity": "sha1-/7xJiDNuDoM94MFox+8VISGqf7M="
     },
-    "os-locale": {
-      "dependencies": {
-        "cross-spawn": {}
-      }
-    },
     "os-tmpdir": {
       "version": "1.0.2",
       "resolved": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz",
@@ -8210,7 +8199,6 @@
       "integrity": "sha1-PpNdfd1zYxuXZZlW1VEo6HtQhKM=",
       "dev": true
     },
-    "spawn-wrap": {},
     "spdx-correct": {
       "version": "3.0.2",
       "resolved": "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.0.2.tgz",

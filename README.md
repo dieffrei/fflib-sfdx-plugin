@@ -13,7 +13,7 @@ $ npm install -g fflib
 $ fflib COMMAND
 running command...
 $ fflib (-v|--version|version)
-fflib/0.0.0 darwin-x64 node-v8.9.4
+fflib/0.0.0 darwin-x64 node-v10.15.3
 $ fflib --help [COMMAND]
 USAGE
   $ fflib COMMAND
@@ -21,15 +21,15 @@ USAGE
 ```
 <!-- usagestop -->
 <!-- commands -->
-* [`fflib fflib:source:selector [CUSTOMOBJECTAPINAME]`](#fflib-fflibsourceselector-customobjectapiname)
+* [`fflib fflib:source:selector [SOBJECTNAME]`](#fflib-fflibsourceselector-sobjectname)
 
-## `fflib fflib:source:selector [CUSTOMOBJECTAPINAME]`
+## `fflib fflib:source:selector [SOBJECTNAME]`
 
 FFLIB SFDX pluginn
 
 ```
 USAGE
-  $ fflib fflib:source:selector [CUSTOMOBJECTAPINAME]
+  $ fflib fflib:source:selector [SOBJECTNAME]
 
 OPTIONS
   -o, --outputpath=outputpath                      (required) Output path

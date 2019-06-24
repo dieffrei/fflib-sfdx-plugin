@@ -51,8 +51,7 @@ export default class Selector extends SfdxCommand {
 
     const implementationClassContent = selectorClassTemplate({ sobj });
     const interfaceContent = selectorInterfaceTemplate({ sobj });
-    console.log(implementationClassContent);
-    console.log(interfaceContent);
+
     writeFile(`${basePath}/${this.flags.outputpath}/${sobj.getClassImplementationFileName()}`, implementationClassContent, logError);
     writeFile(`${basePath}/${this.flags.outputpath}/${sobj.getImplementationClassMetadataFileName()}`, apexMetadataSource, logError);
 

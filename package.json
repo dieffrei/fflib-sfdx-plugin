@@ -15,7 +15,7 @@
     "dot": "^1.1.2",
     "find": "^0.2.9",
     "fs-extra": "^7.0.0",
-    "libxmljs": "^0.19.5",
+    "libxmljs": "^1.0.11",
     "merge-dirs": "^0.2.1",
     "mergexml": "^1.1.2",
     "tslib": "1",
